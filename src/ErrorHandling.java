@@ -13,10 +13,8 @@ public class ErrorHandling {
         
         if (matcher.find()) {
             hasError = true;
-            System.out.println("bool if matcher: " + hasError);
             return "Your password contains not allowed characters!";
         }
-        System.out.println("bool not: " + hasError);
 
         String[] easiestPasswords = {
         "123456",
